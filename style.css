@@ -51,6 +51,7 @@ body {
 }
 
 #estudante{
+    background-image: linear-gradient(#ff0000,#000000);
     padding: 25px 0;
 }
 
@@ -78,12 +79,17 @@ body {
     grid-template-columns: 20% 20% 20% 20% 20%;
 }
 
+.estudante-nome{
+    color: aliceblue;
+}
+
 .rodape{
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     text-align: center;
 }
 
 .rodape-imagem{
-    height: 60px;
+    height: 10%;
+    width: 10%;
     padding: 12px 0;
 }
